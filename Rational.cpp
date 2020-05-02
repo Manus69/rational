@@ -8,7 +8,7 @@ Rational::Rational()
 
 Rational::Rational(long a, long b)
 {
-    if (!b) error("Zero denomenator\n");
+    if (!b) error("Zero denominator\n");
     if (a < 0 && b < 0) 
     {
         a = -a; 
